@@ -1,6 +1,7 @@
 # NodeMCU-IoT
 Código para la realizar comunicación entre NodeMCU y broker ioticos.org 
 
+```ruby
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
 
@@ -74,3 +75,4 @@ void loop(){
   
   delay (1000);
   }
+```
